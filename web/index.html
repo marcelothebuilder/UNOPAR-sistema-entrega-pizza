@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maveana</title>
+    <link rel="stylesheet" href="assets/css/foundation.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="assets/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+<!-- navigation -->
+<div class="top-bar-container">
+	<nav class="top-bar" data-topbar role="navigation">
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="#">Meveana Pizzaria</a></h1>
+	    </li>
+	  </ul>
+
+	  <section class="top-bar-section">
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+	    </ul>
+	  </section>
+	</nav>
+</div>
+
+
+<!-- slider -->
+<ul class="example-orbit" data-orbit>
+  <li style="background-image: url('assets/img/slider/R0YJRQ45E0.jpg');">
+    <div class="orbit-header">
+    	<div class="orbit-header-title">
+    		<h1>Pizzas!</h1>
+    	</div>
+    	<div class="orbit-header-desc">
+	    	<p>Donas de um sabor irresistível, nós amamos cada pedacinho delas. Uma cozinha tradicional em um ambiente moderno: você também vai amar!</p>
+    	</div>
+    </div>
+  </li>
+
+  <li style="background-image: url('assets/img/slider/9D0F9026F8.jpg');">
+    <div class="orbit-header">
+    	<div class="orbit-header-title">
+    		<h1>O melhor ambiente</h1>
+    	</div>
+    	<div class="orbit-header-desc">
+	    	<p>Nossa casa é a casa da boa pizza. Te receberemos num ambiente confortável com pessoas amigáveis, prontas para atender ao seu pedido</p>
+    	</div>
+    </div>
+  </li>
+
+  <li style="background-image: url('assets/img/slider/R926LU1YEA.jpg');">
+    <div class="orbit-header">
+    	<div class="orbit-header-title">
+    		<h1>Delivery</h1>
+    	</div>
+    	<div class="orbit-header-desc">
+	    	<p>Entrega rápida para você aproveitar a pizza que você ama no conforto de sua casa</p>
+    	</div>
+    </div>
+  </li>
+</ul>
+
+<!-- content -->
+<div class="row">
+  <div class="large-12 columns">
+    <h1>O que você gosta na sua pizza?</h1>
+    <h5>Confira nosso cardápio e faça já seu pedido!</h5>
+    <div id="select-ingrendients">
+    </div>
+  </div>
+</div>
+
+
+<div id="cardapio-pizza-big" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+  <img src="#">
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="pizzas-show" class="row">
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/alho-e-oleo.thumbnail.jpg');">
+		  		<div class="cardapio-pizza-title">Alho e Óleo</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 13,99</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>
+		  	<span class="label">Alho e Óleo</span>
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/americana.jpg');">
+		  		<div class="cardapio-pizza-title">Americana</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 29,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>
+		  	<span class="label">Bacon</span>
+		  	<span class="label">Milho</span>		  	
+		  	<span class="label">Ovos</span>		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/a-bolonhesa.jpg');">
+		  		<div class="cardapio-pizza-title">A Bolonhesa</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 29,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Azeitona</span>
+		  	<span class="label">Palmito</span>
+		  	<span class="label">Mussarela</span>
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/atum.jpg');">
+		  		<div class="cardapio-pizza-title">Atum</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 29,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>
+		  	<span class="label">Tomate</span>		  	
+		  	<span class="label">Atum</span>		  	
+		  	<span class="label">Azeitona</span>		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/calabresa.jpg');">
+		  		<div class="cardapio-pizza-title">Calabresa</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 19,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  	
+		  	<span class="label">Calabresa</span>	  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/carioca.jpg');">
+		  		<div class="cardapio-pizza-title">Carioca</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 27,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  	
+		  	<span class="label">½ Calabresa</span>	  	
+		  	<span class="label">½ Presunto</span>		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/familiare.jpg');">
+		  		<div class="cardapio-pizza-title">Familiare</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 25,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  	
+		  	<span class="label">Presunto</span>	  	
+		  	<span class="label">Milho</span>	  	
+		  	<span class="label">Bacon</span>	  	
+		  	<span class="label">Tomate</span>	  	
+		  	<span class="label">Palmito</span>	  		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/mussarela.jpg');">
+		  		<div class="cardapio-pizza-title">Mussarela</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 25,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/portuguesa.jpg');">
+		  		<div class="cardapio-pizza-title">Portuguesa</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 25,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  		  	
+		  	<span class="label">Presunto</span>		  	
+		  	<span class="label">Ovos</span>		  	
+		  	<span class="label">Tomate</span>		  	
+		  	<span class="label">Azeitona</span>		  	
+		  	<span class="label">Cebola</span>		  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/romana.jpg');">
+		  		<div class="cardapio-pizza-title">Romana</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 25,59</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  		  	
+		  	<span class="label">Presunto</span>		  			  	
+		  	<span class="label">Calabresa</span>		  			  	
+		  	<span class="label">Tomate</span>		  			  	
+		  	<span class="label">Atum</span>		  			  	
+		  	<span class="label">Orégano</span>		  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+
+  <div class="large-4 medium-6 end columns">
+  	<div class="cardapio-pizza active">
+	  	<ul class="pricing-table">
+		  <li class="cardapio-pizza-header bullet-item" style="background-image: url('assets/img/pizzas/vegetariana.jpg');">
+		  		<div class="cardapio-pizza-title">Vegetariana</div>
+		  		<a href="#" class="cardapio-pizza-bigger">Ver maior</a>
+		  </li>
+		  <li class="price">R$ 12,99</li>
+		  <li class="bullet-item cardapio-pizza-ingredientes">
+		  	<p>Ingredientes:</p>
+		  	<span class="label">Molho</span>
+		  	<span class="label">Mussarela</span>	  	
+		  	<span class="label">Pimentão</span>	  	
+		  	<span class="label">Milho</span>	  	
+		  	<span class="label">Ervilha</span>	  	
+		  	<span class="label">Azeitona</span>	  	
+		  	<span class="label">Palmito</span>	  	
+		  	<span class="label">Tomate</span>	  	
+		  	<span class="label">Cebola</span>	  	
+		  	<span class="label">Orégano</span>	  	
+		  </li>
+		</ul>
+  	</div> <!-- .cardapio-pizza -->
+  </div> <!-- .large-4 columns -->
+</div>
+
+<footer class="page-footer">
+	Desenvolvido como parte do Portfólio Individual do Primeiro Semestre do curso de Análise e Desenvolvimento de Sistemas da instituição UNOPAR. Uberlândia/2015
+</footer>
+
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/foundation.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

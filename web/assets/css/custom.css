@@ -1,0 +1,160 @@
+
+.top-bar-container
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 150;
+}
+
+.orbit-container
+{
+  width: 100%;
+  height: 100%;
+}
+
+  
+.orbit-container .orbit-slides-container
+{
+  width: 100%;
+  height: 100% !important;
+}
+  
+.orbit-container .orbit-slides-container li
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.orbit-header
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 100px;
+}
+
+.orbit-header > div
+{
+	display: block;
+}
+
+.orbit-container .orbit-timer 
+{
+	top: 60px;
+}
+
+.orbit-header h1, .orbit-header-desc p
+{
+	color: white;
+	background: rgba(51,51,51,0.65);
+	padding: 10px;
+	display: inline-block;
+}
+
+.orbit-header-desc p
+{
+	font-size: 0.9rem;
+	max-width: 600px;
+	/*line-height: 1.2rem;*/
+}
+
+.orbit-header > div + div
+{
+	margin-top: 5px;
+}
+
+/*.cardapio-pizza 
+{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	border: 1px solid rgba(0,0,0,0.1);
+}*/
+
+.cardapio-pizza
+{
+	opacity: .5;
+}
+
+.cardapio-pizza.active
+{
+	opacity: 1;
+}
+
+.cardapio-pizza-header
+{
+	height: 150px;
+	background-size: cover;
+	position: relative;
+	/*border-bottom: 1px dotted #d35400;*/
+/*	border-top: 1px solid #d35400;
+	border-right: 1px solid #d35400;
+	border-left: 1px solid #d35400;*/
+}
+.cardapio-pizza-title,
+.cardapio-pizza-bigger
+{
+	color: white;
+	background: #c0392b;
+}
+
+
+.cardapio-pizza-title
+{
+	
+	/*background: rgba(0,0,0,.4);*/
+	font-size: 1.2rem;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.cardapio-pizza-bigger
+{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding: 5px;
+}
+
+.cardapio-pizza-bigger:hover,
+.cardapio-pizza-bigger:focus
+{
+	color: #ccc;
+}
+
+.cardapio-pizza .label
+{
+	margin-bottom: 3px;
+	background-color: #c0392b;
+}
+
+.reveal-modal
+{
+	padding: 0;
+}
+
+.reveal-modal img
+{
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-footer
+{
+	padding: 25px;
+	background: #333;
+	color: white;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #999;
+}
